@@ -5,12 +5,13 @@ body {
     font-family: font;
     color: white;
     height: 100vh;
+    font-size: large;
     cursor: url(src/cursor.png) 6 6, auto;
 }
 
 @font-face {
     font-family: font;
-    src: url(src/modeseven.ttf);
+    src: url(src/font.ttf);
 }
 
 body {
@@ -55,6 +56,7 @@ button {
     position: relative;
     cursor: url(src/pointer.png) 8 10, auto;
     margin-top: 5px;
+    font-size: medium;
 }
 
 button:hover {
