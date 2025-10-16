@@ -1,0 +1,147 @@
+body {
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+    font-family: font;
+    color: white;
+    height: 100vh;
+    cursor: url(src/cursor.png) 6 6, auto;
+}
+
+@font-face {
+    font-family: font;
+    src: url(src/font.ttf);
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+    font-family: font;
+    color: white;
+    height: 100vh;
+    cursor: url(../src/cursor.png) 8 10, auto;
+}
+
+@font-face {
+    font-family: font;
+    src: url(../src/font.ttf);
+}
+
+#main {
+    position: relative;
+    margin-top: 2rem;
+    z-index: 10;
+    text-align: center;
+    background-color: #202020;
+    width: fit-content;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    outline-offset: -7px;
+    outline-color: #6C1A1A;
+    outline-width: 2px;
+    outline-style: dotted;
+}
+
+button {
+    background-color: yellow;
+    border: none;
+    font-family: font;
+    box-shadow: 4px 4px #171717;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    cursor: url(../src/pointer.png) 8 10, auto;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: orange;
+    top: -2px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 50%;
+    background-color: #121212;
+    border: 4px ridge white;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 2rem;
+    position: relative;
+    z-index: 10;
+}
+
+.title {
+    text-align: center;
+    font-size: xx-large;
+    color: gold;
+}
+
+.text-center { text-align: center; }
+
+#canvas {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+#highlight {
+    width: 20rem;
+    border: 4px ridge white;
+}
+
+#mainTitle {
+    font-size: xx-large;
+    padding: 5px;
+}
+
+#copyright {
+    opacity: 40%;
+    box-shadow: 6px 6px #6C1A1A;
+    border-top: 2px ridge white;
+    border-left: 2px ridge white;
+    border-color: #6C1A1A;
+}
+
+#start-btn {
+    background-color: yellow;
+    border: 4px dotted gold;
+    border-radius: 7px;
+    width: 10rem;
+    line-height: normal;
+    box-sizing: border-box;
+    font-size: x-large;
+    font-family: font;
+    display: inline-block;
+    visibility: hidden;
+    box-shadow: none;
+}
+
+#start-btn:hover {
+    background-color: orange;
+    color: white;
+    border: 4px dotted darkorange;
+    top: auto;
+}
+
+#start {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-bottom: 4px ridge white;
+    z-index: 100;
+}
