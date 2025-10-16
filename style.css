@@ -10,7 +10,7 @@ body {
 
 @font-face {
     font-family: font;
-    src: url(src/font.ttf);
+    src: url(src/modeseven.ttf);
 }
 
 body {
@@ -144,4 +144,19 @@ button:hover {
     position: absolute;
     border-bottom: 4px ridge white;
     z-index: 100;
+}
+
+.a {
+    color: orange;
+    cursor: url(src/pointer.png) 8 10, auto;
+}
+
+.a:hover {
+    background-color: orange;
+    color: black;
+}
+
+.mid-title {
+    font-size: large;
+    font-weight: bold;
 }
