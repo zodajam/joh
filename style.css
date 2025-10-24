@@ -30,7 +30,7 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    #main { width: fit-content; }
+    #main { width: 100%; }
 }
 
 #main {
@@ -44,7 +44,7 @@ body {
     padding-left: 60px;
     padding-right: 60px;
     outline-offset: -7px;
-    outline-color: #6C1A1A;
+    outline-color: cyan;
     outline-width: 2px;
     outline-style: dotted;
 }
@@ -112,10 +112,10 @@ button:hover {
 
 #copyright {
     opacity: 40%;
-    box-shadow: 6px 6px #6C1A1A;
+    box-shadow: 6px 6px cyan;
     border-top: 2px ridge white;
     border-left: 2px ridge white;
-    border-color: #6C1A1A;
+    border-color: cyan;
 }
 
 #start-btn {
